@@ -1,7 +1,5 @@
-﻿using System;
-using DeviceManagement_WebApp.Models;
+﻿using DeviceManagement_WebApp.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 
 // Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
 // If you have enabled NRTs for your project, then un-comment the following line:
@@ -28,15 +26,9 @@ namespace DeviceManagement_WebApp.Data
         {
             modelBuilder.Entity<Category>(entity =>
             {
-                entity.Property(e => e.CategoryId)
-                    .HasColumnName("CategoryID")
-                    .ValueGeneratedNever();
-
+                entity.Property(e => e.CategoryId).HasColumnName("CategoryID").ValueGeneratedNever();
                 entity.Property(e => e.CategoryName).IsRequired();
-
-                entity.Property(e => e.DateCreated)
-                    .HasColumnType("datetime")
-                    .HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.DateCreated).HasColumnType("datetime").HasDefaultValueSql("(getdate())");
             });
 
             modelBuilder.Entity<Device>(entity =>
