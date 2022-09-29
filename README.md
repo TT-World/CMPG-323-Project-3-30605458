@@ -15,3 +15,4 @@ The user clicks on <b>Zones</b> to view zones data. from the Zones they can see:
   <li>Zone Description</li>
   <li>Zone Date Created</li>
 </ul>
+And they can either choose to Delete a zone or see more details about each zone and they can even update a zone.
