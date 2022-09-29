@@ -9,4 +9,9 @@ User can apply crud operations on the web. They can delete , add, update and vie
 
 When the user wants to go to the home screen can just click on Home.
 
-The user clicks on <b>Zones</b>
+The user clicks on <b>Zones</b> to view zones data. from the Zones they can see:
+<ul>
+  <li>Zone Name</li>
+  <li>Zone Description</li>
+  <li>Zone Date Created</li>
+</ul>
