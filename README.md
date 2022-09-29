@@ -2,12 +2,14 @@
 
 
 Step 1: User will have to register to be recognised by the system,By providing a username: Emaill and create a password.<br>
-Step 2: The user will have to now use the created password and username to login.
+Step 2: The user will have to now use the created password and username to login.<br>
 
+Step 3:<br>
 When the user has logged in, they can now View Categories, Zones and Devives.
 User can apply crud operations on the web. They can delete , add, update and view the data that is stored in the database.
 
-When the user wants to go to the home screen can just click on Home.
+When the user wants to go to the home screen can just click on Home.<br>
+When the user wants to exit the system they click on Logout.<br>
 
 The user clicks on <b>Zones</b> to view zones data. from the Zones they can see:
 <ul>
@@ -26,13 +28,16 @@ The user clicks on <b>Devices</b> to view devices data. from the Devices they ca
   <li>Category</li>
   <li>Zones</li>
 </ul>
-And they can either choose to Delete a category or see more details about each category and they can even update a category.<b>
 
-The user clicks on <b>Devices</b> to view categories data. from the Categories they can see:
+And they can either choose to Delete a device or see more details about each device and they can even update a device.<b>They also see the status if the device is active or not.<b>
+
+
+The user clicks on <b>Categories</b> to view categories data. from the Categories they can see:
 <ul>
   <li>Category Name</li>
   <li>Category Description</li>
   <li>Category Date Created</li>
 </ul>
-And they can either choose to Delete a device or see more details about each device and they can even update a device.<b>They also see the status if the device is active or not.
+  And they can either choose to Delete a category or see more details about each category and they can even update a category.<b>
+
 
